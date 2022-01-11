@@ -1,27 +1,21 @@
 import styled from "styled-components";
-import NavButton from "../../atoms/nav-button/NavButton";
-import {Eye, HouseFill} from "react-bootstrap-icons";
 
-const Wrapper = styled.nav`
-  height: 100vh;
-  width: 80px;
+const Wrapper = styled.div`
+  height: 80px;
+  width: 100vw;
+
   background-color: #263238;
-`;
-
-const IconsWrapper = styled.div`
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  display: grid;
-  row-gap: 40px;
-`;
+  box-shadow: 0 11px 24px 0 rgba(66, 68, 90, 1);
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+`
 
 const Navbar = () => (
     <Wrapper>
-        <IconsWrapper>
-            <NavButton Icon={HouseFill} color={"#F57C00"} isActive/>
-            <NavButton Icon={Eye} color={"#F57C00"}/>
-        </IconsWrapper>
+
     </Wrapper>
 );
 

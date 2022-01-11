@@ -1,11 +1,10 @@
-import Navbar from "./Navbar";
+import {default as NavbarComponent} from "./Navbar";
 
 export default {
     title: 'EcoHome/molecules/Navbar',
-    component: Navbar
+    component: NavbarComponent
 };
 
-const Template = (args) => <Navbar {...args} />
+const Template = (args) => <NavbarComponent {...args} />
 
-export const NavbarPrimary = Template.bind({});
-NavbarPrimary.args = {};
+export const Navbar = Template.bind({});
