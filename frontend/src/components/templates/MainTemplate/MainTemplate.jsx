@@ -12,6 +12,7 @@ const Content = styled.div`
   width: 100%;
   margin-top: 80px;
   margin-left: 80px;
+  background-color: #F8F9FA;
 `
 
 const MainTemplate = ({children}) => (
