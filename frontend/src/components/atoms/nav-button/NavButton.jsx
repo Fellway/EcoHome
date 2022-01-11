@@ -37,7 +37,7 @@ const IconWrapper = styled.div`
 const NavButton = ({ isActive, Icon, color }) => (
   <Wrapper isActive={isActive} color={color}>
     <IconWrapper>
-      {isActive ? <Icon color={color}></Icon> : <Icon color={"white"}> </Icon>}
+      {isActive ? <Icon color={color}/> : <Icon color={"white"}> </Icon>}
     </IconWrapper>
   </Wrapper>
 );
