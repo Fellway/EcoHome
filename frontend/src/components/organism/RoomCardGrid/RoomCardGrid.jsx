@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import RoomCard from "../molecules/RoomCard/RoomCard";
+import RoomCard from "../../molecules/RoomCard/RoomCard";
 
 const Wrapper = styled.div`
   display: grid;

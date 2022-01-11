@@ -19,8 +19,8 @@ const IconsWrapper = styled.div`
 const Navbar = () => (
   <Wrapper>
     <IconsWrapper>
-      <NavButton Icon={HouseFill} color={"#F57C00"} isActive></NavButton>
-      <NavButton Icon={Eye} color={"#F57C00"}></NavButton>
+      <NavButton Icon={HouseFill} color={"#F57C00"} isActive/>
+      <NavButton Icon={Eye} color={"#F57C00"}/>
     </IconsWrapper>
   </Wrapper>
 );
