@@ -15,6 +15,7 @@ const Wrapper = styled.div`
 
   &:hover {
     background-color: #ffcc80;
+
     > Text {
       color: black;
     }

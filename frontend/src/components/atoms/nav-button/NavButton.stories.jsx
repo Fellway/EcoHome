@@ -1,6 +1,5 @@
 import NavButton from "./NavButton";
-import {HouseFill} from 'react-bootstrap-icons';
-import {Eye} from 'react-bootstrap-icons';
+import {Eye, HouseFill} from 'react-bootstrap-icons';
 
 export default {
     title: 'EcoHome/atoms/NavButton',

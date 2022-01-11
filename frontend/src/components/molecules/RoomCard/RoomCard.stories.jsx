@@ -1,4 +1,4 @@
-import { default as RoomCardComponent } from "./RoomCard";
+import {default as RoomCardComponent} from "./RoomCard";
 
 export default {
     title: 'EcoHome/molecules/RoomCard',

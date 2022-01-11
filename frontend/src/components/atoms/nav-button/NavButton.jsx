@@ -6,7 +6,7 @@ const Wrapper = styled.button`
   padding: 5px 0;
   width: 80px;
   border: none;
-  background-image: url(${({ icon }) => icon});
+  background-image: url(${({icon}) => icon});
   background-size: auto 75%;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -14,11 +14,11 @@ const Wrapper = styled.button`
   cursor: pointer;
 
   &:after {
-    display: ${({ isActive }) => (isActive ? "block" : "none")};
+    display: ${({isActive}) => (isActive ? "block" : "none")};
     content: "";
     width: 4px;
     height: 40px;
-    background-color: ${({ color, isActive }) => (isActive ? color : "white")};
+    background-color: ${({color, isActive}) => (isActive ? color : "white")};
     position: absolute;
     left: 0;
     top: 0;
@@ -34,12 +34,12 @@ const IconWrapper = styled.div`
   }
 `;
 
-const NavButton = ({ isActive, Icon, color }) => (
-  <Wrapper isActive={isActive} color={color}>
-    <IconWrapper>
-      {isActive ? <Icon color={color}/> : <Icon color={"white"}> </Icon>}
-    </IconWrapper>
-  </Wrapper>
+const NavButton = ({isActive, Icon, color}) => (
+    <Wrapper isActive={isActive} color={color}>
+        <IconWrapper>
+            {isActive ? <Icon color={color}/> : <Icon color={"white"}> </Icon>}
+        </IconWrapper>
+    </Wrapper>
 );
 
 export default NavButton;

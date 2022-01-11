@@ -8,6 +8,4 @@ export default {
 const Template = (args) => <Navbar {...args} />
 
 export const NavbarPrimary = Template.bind({});
-NavbarPrimary.args = {
-
-};
+NavbarPrimary.args = {};
