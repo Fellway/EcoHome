@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import MainTemplate from "../MainTemplate/MainTemplate";
+import SummaryCardGrid from "../../organism/SummaryCardGrid/SummaryCardGrid";
 
 const Wrapper = styled.div`
     `;
@@ -7,7 +8,7 @@ const Wrapper = styled.div`
 const DashboardTemplate = () => (
     <Wrapper>
         <MainTemplate>
-            Hello
+            <SummaryCardGrid/>
         </MainTemplate>
     </Wrapper>
 );

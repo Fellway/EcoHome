@@ -5,13 +5,14 @@ import Navbar from "../../molecules/Navbar/Navbar";
 const Wrapper = styled.div`
   height: 100%;
   width: 100%;
+  max-width: calc(100% - 150px);
 `
 
 const Content = styled.div`
   height: 100%;
   width: 100%;
-  margin-top: 80px;
-  margin-left: 80px;
+  margin-top: 150px;
+  margin-left: 150px;
   background-color: #F8F9FA;
 `
 
