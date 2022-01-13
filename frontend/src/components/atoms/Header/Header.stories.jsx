@@ -11,3 +11,9 @@ export const Header = Template.bind({});
 Header.args = {
     children: "Power consumption"
 }
+
+export const HeaderCapitalLetter = Template.bind({});
+HeaderCapitalLetter.args = {
+    uppercase: true,
+    children: "Power consumption"
+}

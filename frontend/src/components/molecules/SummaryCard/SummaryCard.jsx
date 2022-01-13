@@ -45,7 +45,7 @@ class SummaryCard extends Component {
         const title = this.props.title;
         return (
             <Wrapper>
-                <Header>{title}</Header>
+                <Header uppercase={this.props.uppercase}>{title}</Header>
                 <Table>
                     <tbody>
                     {Object.keys(data).map((key, i) => (

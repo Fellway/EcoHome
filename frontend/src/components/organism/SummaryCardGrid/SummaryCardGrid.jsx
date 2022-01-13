@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 const SummaryCardGrid = () => (
     <Wrapper>
         {SummaryCardData.map((card) => {
-            return <SummaryCard data={card.data} title={card.title}/>
+            return <SummaryCard uppercase={true} data={card.data} title={card.title}/>
         })}
     </Wrapper>
 )
