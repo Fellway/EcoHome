@@ -24,9 +24,7 @@ const AvatarWrapper = styled.div`
 
 const Notifications = styled.div`
   width: 60px;
-  height: 60px;
   font-size: 40px;
-  line-height: 70px;
   color: white;
 `
 

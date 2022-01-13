@@ -14,13 +14,14 @@ const Wrapper = styled.button`
   border-radius: 15px;
   background-color: ${({status}) => status ? 'rgba(175,175,175,0.63)' : '#e9e9ed'};
   color: ${({status}) => status ? 'black' : '#b7b7b7'};
+  
+  transition: .5s;
 `
 
 const IconWrapper = styled.div`
   width: 80px;
   height: 50px;
   font-size: 30px;
-  margin-top: 10px;
 `
 
 const DeviceDescription = styled.div`
@@ -42,7 +43,6 @@ class ToggleDeviceButton extends Component {
         this.setState((prevState) => ({
             status: !prevState.status
         }));
-        console.log(this.state.status)
     }
 
     render() {
