@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Text from "../../atoms/text/Text";
 import SubText from "../../atoms/subtext/SubText";
 
-const Wrapper = styled.div`
+const Wrapper = styled.button`
   height: 150px;
   width: 150px;
   background-color: black;

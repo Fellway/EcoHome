@@ -6,8 +6,10 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-gap: 50px;
+  
+  box-sizing: border-box;
 
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 
   width: 100%;
   padding: 20px;

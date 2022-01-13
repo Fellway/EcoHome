@@ -9,8 +9,8 @@ const Wrapper = styled.div`
 `
 
 const Content = styled.div`
-  height: 100%;
-  width: 100%;
+  height: calc(100vh - 150px);
+  width: calc(100% - (150px - 80px));
   margin-top: 150px;
   margin-left: 150px;
   background-color: #F8F9FA;

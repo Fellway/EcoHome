@@ -1,6 +1,6 @@
 import {default as IconButtonComponent} from "./IconButton";
-import HomeIcon from "../../../../assets/home.svg";
-import PlusIcon from "../../../../assets/icons/plus.svg";
+import HomeIcon from "../../../assets/home.svg";
+import PlusIcon from "../../../assets/icons/plus.svg";
 
 export default {
     title: 'EcoHome/atoms/IconButton',

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import NavButton from "../../atoms/nav-button/NavButton";
-import {Eye, HouseFill} from "react-bootstrap-icons";
+import {BarChartFill, Eye, HouseFill} from "react-bootstrap-icons";
+import {NavLink} from "react-router-dom";
 
 const Wrapper = styled.nav`
   height: 100vh;
@@ -25,8 +26,12 @@ const IconsWrapper = styled.div`
 const Sidebar = () => (
     <Wrapper>
         <IconsWrapper>
-            <NavButton Icon={HouseFill} color={"#F57C00"} isActive/>
-            <NavButton Icon={Eye} color={"#F57C00"}/>
+            <NavLink exact to={"/"}>
+                <NavButton Icon={BarChartFill} color={"#F57C00"}/>
+            </NavLink>
+            <NavLink exact to={"/rooms"}>
+                <NavButton Icon={HouseFill} color={"#F57C00"}/>
+            </NavLink>
         </IconsWrapper>
     </Wrapper>
 );

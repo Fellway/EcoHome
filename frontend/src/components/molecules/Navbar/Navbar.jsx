@@ -1,6 +1,8 @@
 import styled from "styled-components";
-import Avatar from "../../Avatar/Avatar";
-import {Bell} from "react-bootstrap-icons"
+import Avatar from "../../atoms/Avatar/Avatar";
+import {Bell} from "react-bootstrap-icons";
+import LogoImage from "../../../assets/images/logo/logo.png";
+import {NavLink} from "react-router-dom";
 
 const Wrapper = styled.div`
   height: 80px;
@@ -40,11 +42,23 @@ const MenuWrapper = styled.div`
   transform: translate(-50%, -50%);
 `
 
+const Logo = styled.div`
+  width: 80px;
+  height: 60px;
+  background-image: ${({ url }) => `url(${url})`};
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+`
+
 const Navbar = () => (
     <Wrapper>
-        <div>
-
-        </div>
+        <NavLink exact to={"/"}>
+            <Logo url={LogoImage}/>
+        </NavLink>
         <MenuWrapper>
             <Notifications>
                 <Bell/>
