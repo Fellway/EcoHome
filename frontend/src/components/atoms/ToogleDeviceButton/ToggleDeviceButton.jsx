@@ -6,7 +6,8 @@ import {Component} from "react";
 const Wrapper = styled.button`
   display: grid;
   grid-template-columns: 80px 1fr 80px;
-
+  align-items: center;
+  
   width: 300px;
   height: 50px;
 
@@ -20,7 +21,7 @@ const Wrapper = styled.button`
 
 const IconWrapper = styled.div`
   width: 80px;
-  height: 50px;
+  height: 30px;
   font-size: 30px;
 `
 

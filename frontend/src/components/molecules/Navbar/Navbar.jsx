@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 100;
 `
 
 const AvatarWrapper = styled.div`
@@ -24,6 +24,7 @@ const AvatarWrapper = styled.div`
 
 const Notifications = styled.div`
   width: 60px;
+  height: 40px;
   font-size: 40px;
   color: white;
 `
@@ -33,6 +34,7 @@ const MenuWrapper = styled.div`
   max-width: 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
   grid-gap: 20px;
   height: 60px;
   top: 50%;

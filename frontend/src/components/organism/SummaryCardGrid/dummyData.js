@@ -23,21 +23,5 @@ export const SummaryCardData = [
             "averagePowerConsumptionMonthly": "3020 kWh"
         },
         title: "Power consumption"
-    },
-    {
-        data: {
-            "averagePowerConsumption": "20 kWh",
-            "averagePowerConsumptionDaily": "120 kWh",
-            "averagePowerConsumptionMonthly": "3020 kWh"
-        },
-        title: "Power consumption"
-    },
-    {
-        data: {
-            "averagePowerConsumption": "20 kWh",
-            "averagePowerConsumptionDaily": "120 kWh",
-            "averagePowerConsumptionMonthly": "3020 kWh"
-        },
-        title: "Power consumption"
     }
 ]

@@ -1,12 +1,12 @@
 import styled from "styled-components"
 
 const IconButton = styled.button`
-  width: 200px;
+  width: ${({fullWidth}) => fullWidth ? "100%" : "200px"};
   height: 40px;
   padding-left: 50px;
 
   text-overflow: ellipsis;
-  text-align: left;
+  text-align: ${({fullWidth}) => fullWidth ? "center" : "left"};
   overflow: hidden;
   white-space: nowrap;
 

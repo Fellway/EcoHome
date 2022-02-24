@@ -27,7 +27,6 @@ function App() {
                 <Route exact path='/solar-system' element={<SolarSystemTemplate/>}/>
             </Routes>
         </BrowserRouter>
-
         </body>
         </html>
     );

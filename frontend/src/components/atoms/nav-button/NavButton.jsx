@@ -13,7 +13,14 @@ const Wrapper = styled.button`
   background-color: #263238;
   cursor: pointer;
 
+  :hover {
+    &:after {
+      height: 45px;
+    }
+  }
+  
   &:after {
+    transition: .3s;
     display: ${({isActive}) => (isActive ? "block" : "none")};
     content: "";
     width: 4px;
@@ -29,8 +36,14 @@ const IconWrapper = styled.div`
   width: 80px;
   height: 30px;
 
+  transition: .3s;
+
   &:first-child {
     font-size: 30px;
+
+    :hover {
+      font-size: 35px !important;
+    }
   }
 `;
 

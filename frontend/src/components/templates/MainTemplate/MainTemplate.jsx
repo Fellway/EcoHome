@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 `
 
 const Content = styled.div`
-  height: calc(100vh - 150px);
+  height: fit-content;
   width: calc(100% - (150px - 80px));
   margin-top: 150px;
   margin-left: 150px;

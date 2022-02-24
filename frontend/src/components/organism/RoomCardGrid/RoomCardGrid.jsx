@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import RoomCard from "../../molecules/RoomCard/RoomCard";
 import RoomDetails from "../../molecules/RoomDetails/RoomDetails";
-import {Component, useState} from "react";
+import {Component} from "react";
 import {RoomData} from "./dummyData";
 import IconButton from "../../atoms/IconButton/IconButton";
 import PlusIcon from "../../../assets/icons/plus.svg"
@@ -22,7 +22,7 @@ const RoomCardsWrapper = styled.div`
   display: grid;
   align-items: start;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15px;
+  grid-gap: 50px;
 `;
 
 const RoomDetailsWrapper = styled.div`
@@ -60,7 +60,7 @@ const ModalWrapper = styled.div`
   position: fixed;
   top: 50%;
   left: 50%;
-  
+
   transform: translate(-50%, -50%);
 `
 
@@ -104,7 +104,7 @@ class RoomCardGrid extends Component {
                         <Modal show={true} onHide={this.closeModal}>
                             <Modal.Header closeButton>
                                 <Modal.Title>
-                                    <Header>Add new device</Header>
+                                    <Header>Add new room</Header>
                                 </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
